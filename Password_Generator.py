@@ -2,14 +2,14 @@ import random
 import string
 
 #determines length of your password
-length = int(input("Enter Length: "))
+length = int(input("Enter password length: "))
 
 #adds upper-,lowercase letters and digits
 chars = string.ascii_letters
 chars += string.digits
 
 password = ""
-print("Should your password include punctuation?")
+print("Should your password include punctuation?\n Its more secure to include it\n Press 1 to include it or 2 to not include it")
 passwordStrength = int(input("Enter 1 or 2: "))
 if(passwordStrength == 1):
     #adds punctuation to char string

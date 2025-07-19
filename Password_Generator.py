@@ -24,6 +24,6 @@ elif(passwordStrength == 2):
         next_character = random.choice(chars)
         password += next_character
 else:
-    print("Not 1 or 2")
+    print("Not a valid input.")
 
 print("Your random Password is:", password)
